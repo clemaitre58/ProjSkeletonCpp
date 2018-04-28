@@ -20,3 +20,9 @@ To configure to be in debug mode :
 `make` or `make -j n` where `n` is the number of cores to use for the compilation
 
 * A folder bin will be created at the same level as the build directory.
+
+# Remarks
+
+* If you add new file or remove some other, you have to create the makefile again:
+
+`cmake ../src`
